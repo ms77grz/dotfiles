@@ -1,0 +1,80 @@
+#
+# ~/.bashrc-personal
+#
+
+# export PATH=~/.local/bin:$PATH
+export PATH="$PATH:~/.local/bin"
+
+alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias sv="[ -d "venv" ] && source venv/bin/activate || echo \"There's no venv here!\""
+alias fp="ps auxw | grep $1"
+alias bb="acpi -b | awk '{print \$4}' | sed 's/,//'"
+alias cxz='PS1="[\033[31m\u\033[32m@\033[34m\h \033[33m\w]$ \033[0m"'
+alias zxc='PS1="\[\e[40m\]\[\e[1;30m\]\\[\e[0m\]$ \033[0m"'
+alias locrun="ssh -R 80:localhost:8000 ssh.localhost.run"
+alias KTVup="nmcli connection up KTV && echo KTVup"
+alias KTVdn="nmcli connection down KTV && echo KTVdn"
+alias addalias="vim ~/.bashrc-personal"
+alias reload="source ~/.bashrc-personal"
+alias editsxiv="vim ~/.config/sxiv/exec/key-handler"
+alias systemctlenabled="systemctl list-unit-files --state=enabled --no-pager"
+alias weather="curl wttr.in"
+alias mypublicip="curl ifconfig.co"
+alias sr="sr -browser=w3m"
+alias surfraw="surfraw -browser=surf"
+alias mount="mount | column -t"
+alias font="fc-list | grep -i $1"
+alias terfont="vim .config/termite/config"
+alias lastpac="expac --timefmt='%F %T' '%l %n' | sort -n | tail -n $1"
+alias ytv-low="youtube-dl -f 18 $1"
+alias yt-rm-cache="youtube-dl --rm-cache-di"
+alias gitu="git add . && git commit && git push"
+alias gtru="gtypist ru.typ"
+alias gt="gtypist"
+alias tr="~/.local/share/translator/venv/bin/python ~/.local/share/translator/translator.py"
+alias pyclean="find . -type d -name  "__pycache__" | grep -v venv | xargs rm -rf"
+alias xc="xclip -select clipboard"
+alias mikrotik88="ssh ms77grz@192.168.88.1"
+alias passgen="pwgen -s $1 -1 -v -c -0"
+alias ree="cat ~/webapps/networking/ftth/ftth_hosts.csv | fzf -m --bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-t:toggle-all | cut -d, -f 2,3,5,6,8,12-15"
+alias rr=ranger
+alias aa="alias | fzf" # list all aliases
+alias ssht="ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no"
+alias lsd="ls -d */"
+alias xf="subl3 /home/magax/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
+
+function ff () {
+    fd -t f -H -I | fzf -m --preview="xdg-mime query default {}" | xargs -ro -d "\n" xdg-open 2>&-
+}
+
+# function sv () {
+#     if [ -d "venv" ] 
+#     then
+#         source "venv/bin/activate"
+#     else
+#         echo "Error: Directory venv/ does not exists."
+#     fi
+# }
+
+function cdi () {
+    cd $HOME && cd "$(fd -t d | fzf --preview="tree -L 1 {}" --bind="space:toggle-preview" --preview-window=:hidden)" && echo "$PWD" && tree -L 2
+}
+
+function pacs () {
+    sudo pacman -Syy $(pacman -Ssq | fzf -m --preview="pacman -Si {}" --preview-window=:hidden --bind=space:toggle-preview)
+}
+
+function fdc () {
+	du -a ~/webapps/networking/ftth/ftth_data/* | awk '{print $2}' | fzf --prompt="Введите IP адрес коммутатора: " | xargs -r $EDITOR
+}
+
+export BROWSER=firefox
+export EDITOR=vim
+HISTTIMEFORMAT="%d/%m/%y %T "
+
+# RED="\033[31m"
+# GREEN="\033[32m"
+# YELLOW="\033[33m"
+# BLUE="\033[34m"
+# WHITE="\033[0m"
+# PS1="[${RED}\u${GREEN}@${BLUE}\h ${YELLOW}\w]\$ $WHITE"
