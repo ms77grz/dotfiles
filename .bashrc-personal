@@ -34,7 +34,6 @@ alias gt="gtypist"
 alias tr="~/.local/share/translator/venv/bin/python ~/.local/share/translator/translator.py"
 alias pyclean="find . -type d -name  "__pycache__" | grep -v venv | xargs rm -rf"
 alias xc="xclip -select clipboard"
-alias mikrotik88="ssh ms77grz@192.168.88.1"
 alias passgen="pwgen -s $1 -1 -v -c -0"
 alias ree="cat ~/webapps/networking/ftth/ftth_hosts.csv | fzf -m --bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-t:toggle-all | cut -d, -f 2,3,5,6,8,12-15"
 alias rr=ranger
