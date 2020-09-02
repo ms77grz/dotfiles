@@ -2,10 +2,10 @@
 # ~/.bashrc-personal
 #
 
-# export PATH=~/.local/bin:$PATH
 export PATH="$PATH:~/.local/bin"
 export FZF_DEFAULT_OPTS='-m --bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-t:toggle-all'
 
+alias tsm="transmission-remote"
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias sv="[ -d "venv" ] && source venv/bin/activate || echo \"There's no venv here!\""
 alias fp="ps auxw | grep $1"
@@ -35,7 +35,6 @@ alias gt="gtypist"
 alias tr="~/.local/share/translator/venv/bin/python ~/.local/share/translator/translator.py"
 alias pyclean="find . -type d -name  "__pycache__" | grep -v venv | xargs rm -rf"
 alias xc="xclip -select clipboard"
-alias mikrotik88="ssh ms77grz@192.168.88.1"
 alias passgen="pwgen -s $1 -1 -v -c -0"
 alias ree="cat ~/webapps/networking/ftth/ftth_hosts.csv | fzf -m --bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-t:toggle-all | cut -d, -f 2,3,5,6,8,12-15"
 alias rr=ranger
@@ -43,6 +42,7 @@ alias aa="alias | fzf" # list all aliases
 alias ssht="ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no"
 alias lsd="ls -d */"
 alias xf="subl3 /home/magax/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml"
+alias vim="nvim"
 
 function ff () {
     fd -t f -H -I | fzf -m --preview="xdg-mime query default {}" | xargs -ro -d "\n" xdg-open 2>&-
@@ -66,7 +66,7 @@ function pacs () {
 }
 
 function fdc () {
-	du -a ~/webapps/networking/ftth/ftth_data/* | awk '{print $2}' | fzf --prompt="Введите IP адрес коммутатора: " | xargs -r $EDITOR
+	du -a ~/HDD/network/ftth/ftth_data/* | awk '{print $2}' | fzf --prompt="Введите IP адрес коммутатора: " | xargs -r $EDITOR
 }
 
 export BROWSER=firefox

@@ -21,8 +21,11 @@ tint2 &
 # install xcape - press super to get menu
 #xcape -e 'Super_L=Super_L|space'
 
-#on laptops without seperate numeric keyboard put hashtag in front
+# on laptops without seperate numeric keyboard put hashtag in front
 numlockx &
+
+# keyboard layout
+setxkbmap -model pc105 -layout us,ru -variant qwerty -option grp:win_space_toggle &
 
 ## GNOME PolicyKit authentication
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
