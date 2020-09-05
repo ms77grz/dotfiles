@@ -508,12 +508,6 @@
         <command>xfce4-appfinder</command>
       </action>
     </keybind>
-    <!-- <keybind key="W-S-d"> -->
-    <!-- <action name="Execute"> -->
-    <!-- <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</command> -->
-    <!-- <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'Zekton:bold:pixelsize=18'</command> -->
-    <!-- </action> -->
-    <!-- </keybind> -->
     <keybind key="A-F6">
       <action name="ToggleMaximize"/>
     </keybind>
@@ -523,11 +517,6 @@
     <keybind key="W-b">
       <action name="ToggleDecorations"/>
     </keybind>
-    <!-- <keybind key="W-f">
-      <action name="Execute">
-        <command>exo-open --launch FileManager</command>
-      </action>
-    </keybind> -->
     <keybind key="W-t">
       <action name="Execute">
         <command>urxvt</command>
@@ -563,11 +552,6 @@
         <command>libreoffice</command>
       </action>
     </keybind>
-    <!-- <keybind key="W-e">
-      <action name="Execute">
-        <command>geany</command>
-      </action>
-    </keybind> -->
     <keybind key="W-h">
       <action name="Execute">
         <command>urxvt -T 'htop task manager' -e htop</command>
@@ -598,22 +582,6 @@
         <menu>root-menu</menu>
       </action>
     </keybind>
-    <!-- <keybind key="W-Right">
-      <action name="UnmaximizeFull"/>
-      <action name="MaximizeVert"/>
-      <action name="MoveResizeTo">
-        <width>50%</width>
-      </action>
-      <action name="MoveToEdgeEast"/>
-    </keybind> -->
-    <!-- <keybind key="W-Left">
-      <action name="UnmaximizeFull"/>
-      <action name="MaximizeVert"/>
-      <action name="MoveResizeTo">
-        <width>50%</width>
-      </action>
-      <action name="MoveToEdgeWest"/>
-    </keybind> -->
     <keybind key="W-Up">
       <action name="MaximizeFull"/>
     </keybind>
@@ -682,9 +650,15 @@
     <keybind key="W-q">
       <action name="Close"/>
     </keybind>
+    <!-- TERMINALS -->
     <keybind key="W-Return">
       <action name="Execute">
         <command>alacritty</command>
+      </action>
+    </keybind>
+    <keybind key="S-A-Return">
+      <action name="Execute">
+        <command>st</command>
       </action>
     </keybind>
     <keybind key="S-W-Return">
@@ -700,46 +674,6 @@
     <keybind key="W-s">
       <action name="Execute">
         <command>subl3</command>
-      </action>
-    </keybind>
-    <keybind key="W-F3">
-      <action name="Execute">
-        <command>inkscape</command>
-      </action>
-    </keybind>
-    <keybind key="W-F4">
-      <action name="Execute">
-        <command>gimp</command>
-      </action>
-    </keybind>
-    <keybind key="W-F5">
-      <action name="Execute">
-        <command>meld</command>
-      </action>
-    </keybind>
-    <keybind key="W-F6">
-      <action name="Execute">
-        <command>vlc</command>
-      </action>
-    </keybind>
-    <keybind key="A-v">
-      <action name="Execute">
-        <command>virtualbox</command>
-      </action>
-    </keybind>
-    <!-- <keybind key="W-F8">
-      <action name="Execute">
-        <command>thunar</command>
-      </action>
-    </keybind> -->
-    <keybind key="W-F9">
-      <action name="Execute">
-        <command>evolution</command>
-      </action>
-    </keybind>
-    <keybind key="W-F10">
-      <action name="Execute">
-        <command>spotify</command>
       </action>
     </keybind>
     <!-- <keybind key="C-A-space"> -->
@@ -758,11 +692,6 @@
         <command>xfce4-taskmanager</command>
       </action>
     </keybind>
-    <!-- <keybind key="C-A-q">
-      <action name="ShowMenu">
-        <menu>root-menu</menu>
-      </action>
-    </keybind> -->
     <keybind key="C-A-m">
       <action name="Execute">
         <command>xfce4-settings-manager</command>
@@ -790,21 +719,11 @@
         <command>xfce4-appfinder</command>
       </action>
     </keybind>
-    <!-- <keybind key="C-A-T">
-      <action name="Execute">
-        <command>termite</command>
-      </action>
-    </keybind> -->
     <keybind key="A-c">
       <action name="Execute">
         <command>galculator</command>
       </action>
     </keybind>
-    <!-- <keybind key="C-A-B">
-      <action name="Execute">
-        <command>thunar</command>
-      </action>
-    </keybind> -->
     <keybind key="C-A-S">
       <action name="Execute">
         <command>spotify</command>
@@ -825,11 +744,6 @@
         <command>obconf</command>
       </action>
     </keybind>
-    <!-- <keybind key="C-A-p">
-      <action name="Execute">
-        <command>pamac-manager</command>
-      </action>
-    </keybind> -->
     <keybind key="C-A-KP_8">
       <action name="Execute">
         <command>conky-rotate -n</command>
