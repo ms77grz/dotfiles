@@ -13,8 +13,8 @@ alias bb="acpi -b | awk '{print \$4}' | sed 's/,//'"
 alias cxz='PS1="[\033[31m\u\033[32m@\033[34m\h \033[33m\w]$ \033[0m"'
 alias zxc='PS1="\[\e[40m\]\[\e[1;30m\]\\[\e[0m\]$ \033[0m"'
 alias locrun="ssh -R 80:localhost:8000 ssh.localhost.run"
-alias KTVup="nmcli connection up KTV && echo KTVup"
-alias KTVdn="nmcli connection down KTV && echo KTVdn"
+alias ktvup="nmcli connection up KTV && echo KTVup"
+alias ktvdown="nmcli connection down KTV && echo KTVdn"
 alias addalias="vim ~/.bashrc-personal"
 alias reload="source ~/.bashrc-personal"
 alias editsxiv="vim ~/.config/sxiv/exec/key-handler"
