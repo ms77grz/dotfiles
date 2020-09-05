@@ -188,7 +188,7 @@
       </action>
     </keybind>
     <keybind key="W-S-Right">
-	  <action name="MoveResizeTo">
+      <action name="MoveResizeTo">
         <monitor>2</monitor>
       </action>
     </keybind>
@@ -509,10 +509,10 @@
       </action>
     </keybind>
     <!-- <keybind key="W-S-d"> -->
-      <!-- <action name="Execute"> -->
-        <!-- <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</command> -->
-        <!-- <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'Zekton:bold:pixelsize=18'</command> -->
-      <!-- </action> -->
+    <!-- <action name="Execute"> -->
+    <!-- <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</command> -->
+    <!-- <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'Zekton:bold:pixelsize=18'</command> -->
+    <!-- </action> -->
     <!-- </keybind> -->
     <keybind key="A-F6">
       <action name="ToggleMaximize"/>
@@ -523,11 +523,11 @@
     <keybind key="W-b">
       <action name="ToggleDecorations"/>
     </keybind>
-    <keybind key="W-f">
+    <!-- <keybind key="W-f">
       <action name="Execute">
         <command>exo-open --launch FileManager</command>
       </action>
-    </keybind>
+    </keybind> -->
     <keybind key="W-t">
       <action name="Execute">
         <command>urxvt</command>
@@ -563,11 +563,11 @@
         <command>libreoffice</command>
       </action>
     </keybind>
-    <keybind key="W-e">
+    <!-- <keybind key="W-e">
       <action name="Execute">
         <command>geany</command>
       </action>
-    </keybind>
+    </keybind> -->
     <keybind key="W-h">
       <action name="Execute">
         <command>urxvt -T 'htop task manager' -e htop</command>
@@ -727,11 +727,11 @@
         <command>virtualbox</command>
       </action>
     </keybind>
-    <keybind key="W-F8">
+    <!-- <keybind key="W-F8">
       <action name="Execute">
         <command>thunar</command>
       </action>
-    </keybind>
+    </keybind> -->
     <keybind key="W-F9">
       <action name="Execute">
         <command>evolution</command>
@@ -743,10 +743,10 @@
       </action>
     </keybind>
     <!-- <keybind key="C-A-space"> -->
-      <!-- <action name="Execute"> -->
-        <!-- <command>rofi -show run -font "Zekton 13"</command> -->
-        <!-- <command>rofi -show run -font "Noto Sans 13"</command> -->
-      <!-- </action> -->
+    <!-- <action name="Execute"> -->
+    <!-- <command>rofi -show run -font "Zekton 13"</command> -->
+    <!-- <command>rofi -show run -font "Noto Sans 13"</command> -->
+    <!-- </action> -->
     <!-- </keybind> -->
     <keybind key="C-A-space">
       <action name="Execute">
@@ -800,11 +800,11 @@
         <command>galculator</command>
       </action>
     </keybind>
-    <keybind key="C-A-B">
+    <!-- <keybind key="C-A-B">
       <action name="Execute">
         <command>thunar</command>
       </action>
-    </keybind>
+    </keybind> -->
     <keybind key="C-A-S">
       <action name="Execute">
         <command>spotify</command>
@@ -863,7 +863,7 @@
     <!-- MANUALS -->
     <keybind key="W-m">
       <action name="Execute">
-	<command>manuals.sh</command>
+        <command>manuals.sh</command>
       </action>
     </keybind>
     <!-- SCREENRECORD -->
