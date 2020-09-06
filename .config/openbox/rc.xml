@@ -442,26 +442,47 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
-    <keybind key="XF86AudioStop">
-      <action name="Execute">
-        <command>playerctl pause</command>
-      </action>
-    </keybind>
+    <!-- MPC CONTROL -->
     <keybind key="XF86AudioPlay">
       <action name="Execute">
-        <command>playerctl play-pause</command>
+        <command>mpc toggle</command>
       </action>
     </keybind>
-    <keybind key="XF86AudioPrev">
+    <keybind key="XF86AudioStop">
       <action name="Execute">
-        <command>playerctl previous</command>
+        <command>mpc stop</command>
       </action>
     </keybind>
     <keybind key="XF86AudioNext">
       <action name="Execute">
-        <command>playerctl next</command>
+        <command>mpc next</command>
       </action>
     </keybind>
+    <keybind key="XF86AudioPrev">
+      <action name="Execute">
+        <command>mpc prev</command>
+      </action>
+    </keybind>
+    <!-- <keybind key="XF86AudioStop">
+      <action name="Execute">
+        <command>playerctl pause</command>
+      </action>
+    </keybind> -->
+    <!-- <keybind key="XF86AudioPlay">
+      <action name="Execute">
+        <command>playerctl play-pause</command>
+      </action>
+    </keybind> -->
+    <!-- <keybind key="XF86AudioPrev">
+      <action name="Execute">
+        <command>playerctl previous</command>
+      </action>
+    </keybind> -->
+    <!-- <keybind key="XF86AudioNext">
+      <action name="Execute">
+        <command>playerctl next</command>
+      </action>
+    </keybind> -->
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
         <command>xbacklight +10</command>
@@ -617,31 +638,38 @@
     <keybind key="A-m">
       <action name="Move"/>
     </keybind>
+    <!-- VARIETY BLOCK -->
+    <!-- send to trash -->
     <keybind key="A-t">
       <action name="Execute">
         <command>variety -t</command>
       </action>
     </keybind>
+    <!-- send to favorites -->
     <keybind key="A-f">
       <action name="Execute">
         <command>variety -f</command>
       </action>
     </keybind>
+    <!-- previous -->
     <keybind key="A-p">
       <action name="Execute">
         <command>variety -p</command>
       </action>
     </keybind>
+    <!-- next -->
     <keybind key="A-n">
       <action name="Execute">
         <command>variety -n</command>
       </action>
     </keybind>
+    <!-- toggle changes -->
     <keybind key="A-Down">
       <action name="Execute">
         <command>variety --resume</command>
       </action>
     </keybind>
+    <!-- pause on current imager -->
     <keybind key="A-Up">
       <action name="Execute">
         <command>variety --pause</command>
@@ -661,6 +689,7 @@
         <command>st</command>
       </action>
     </keybind>
+    <!-- FILE MANAGERS -->
     <keybind key="S-W-Return">
       <action name="Execute">
         <command>thunar</command>
@@ -674,6 +703,12 @@
     <keybind key="W-s">
       <action name="Execute">
         <command>subl3</command>
+      </action>
+    </keybind>
+    <!-- VIRTUAL MANAGER -->
+    <keybind key="A-v">
+      <action name="Execute">
+        <command>virt-manager</command>
       </action>
     </keybind>
     <!-- <keybind key="C-A-space"> -->
