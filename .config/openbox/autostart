@@ -13,7 +13,7 @@ picom -b --config ~/.config/picom.conf &
 tint2 &
 #$HOME/.config/polybar/launch.sh &
 
-#(am-conky-session --autostart) &
+(am-conky-session --autostart) &
 
 #bluetooth#
 #(blueberry-tray) &
@@ -30,9 +30,11 @@ setxkbmap -model pc105 -layout us,ru -variant qwerty -option grp:win_space_toggl
 ## GNOME PolicyKit authentication
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
+## Desktop notifications
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
+
 ## Volume control for systray
 (volumeicon) &
-
 
 ## Turn off/on System Beep
 xset b off

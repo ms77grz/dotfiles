@@ -326,3 +326,97 @@ Sep 06 22:39 : client: [71] closed
 Sep 06 22:39 : client: [72] opened from 127.0.0.1:38444
 Sep 06 22:39 : player: played "Icehouse - Icehouse [mp3clan].mp3"
 Sep 06 22:39 : client: [72] closed
+Sep 06 22:46 : client: [73] opened from 127.0.0.1:38494
+Sep 06 22:46 : client: [73] closed
+Sep 06 22:46 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 06 22:50 : player: played "Icehouse - Icehouse [mp3clan].mp3"
+Sep 06 22:50 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 06 23:52 : client: [74] opened from 127.0.0.1:38706
+Sep 06 23:52 : client: [74] closed
+Sep 06 23:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 06 23:56 : client: [75] opened from 127.0.0.1:38762
+Sep 06 23:56 : player: played "nothuman.mp3"
+Sep 06 23:56 : client: [75] closed
+Sep 06 23:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 06 23:58 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 07 00:00 : client: [0] opened from 127.0.0.1:33900
+Sep 07 00:00 : client: [0] closed
+Sep 07 00:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 00:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 00:00 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:00 : client: [1] opened from 127.0.0.1:33904
+Sep 07 00:00 : player: played "nothuman.mp3"
+Sep 07 00:00 : client: [1] closed
+Sep 07 00:10 : client: [2] opened from 127.0.0.1:34232
+Sep 07 00:10 : client: [2] closed
+Sep 07 00:10 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:10 : client: [3] opened from 127.0.0.1:34236
+Sep 07 00:10 : client: [3] closed
+Sep 07 00:10 : client: [4] opened from 127.0.0.1:34240
+Sep 07 00:10 : player: played "nothuman.mp3"
+Sep 07 00:10 : client: [4] closed
+Sep 07 00:10 : client: [5] opened from 127.0.0.1:34244
+Sep 07 00:10 : client: [5] closed
+Sep 07 00:10 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:10 : client: [6] opened from 127.0.0.1:34248
+Sep 07 00:10 : player: played "nothuman.mp3"
+Sep 07 00:10 : client: [6] closed
+Sep 07 00:11 : client: [7] opened from 127.0.0.1:34252
+Sep 07 00:11 : client: [7] closed
+Sep 07 00:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:11 : client: [8] opened from 127.0.0.1:34256
+Sep 07 00:11 : player: played "nothuman.mp3"
+Sep 07 00:11 : client: [8] closed
+Sep 07 00:11 : client: [9] opened from 127.0.0.1:34260
+Sep 07 00:11 : client: [9] closed
+Sep 07 00:11 : client: [10] opened from 127.0.0.1:34264
+Sep 07 00:11 : client: [10] closed
+Sep 07 00:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:11 : client: [11] opened from 127.0.0.1:34268
+Sep 07 00:11 : player: played "nothuman.mp3"
+Sep 07 00:11 : client: [11] closed
+Sep 07 00:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 00:15 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 07 00:15 : client: [0] opened from 127.0.0.1:44138
+Sep 07 00:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 00:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 00:15 : client: [0] closed
+Sep 07 00:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:15 : client: [1] opened from 127.0.0.1:44142
+Sep 07 00:15 : player: played "nothuman.mp3"
+Sep 07 00:15 : client: [1] closed
+Sep 07 00:28 : client: [2] opened from 127.0.0.1:44292
+Sep 07 00:28 : client: [2] closed
+Sep 07 00:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:28 : client: [3] opened from 127.0.0.1:44296
+Sep 07 00:28 : player: played "nothuman.mp3"
+Sep 07 00:28 : client: [3] closed
+Sep 07 00:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 00:31 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 07 00:31 : client: [0] opened from 127.0.0.1:43140
+Sep 07 00:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 00:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 00:31 : client: [0] closed
+Sep 07 00:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 00:31 : client: [1] opened from 127.0.0.1:43144
+Sep 07 00:31 : player: played "nothuman.mp3"
+Sep 07 00:31 : client: [1] closed
+Sep 07 00:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 00:48 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 07 01:42 : client: [0] opened from 127.0.0.1:45800
+Sep 07 01:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 01:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 07 01:42 : client: [0] closed
+Sep 07 01:42 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 01:42 : client: [1] opened from 127.0.0.1:45804
+Sep 07 01:42 : player: played "nothuman.mp3"
+Sep 07 01:42 : client: [1] closed
+Sep 07 09:49 : client: [2] opened from 127.0.0.1:45828
+Sep 07 09:49 : client: [2] closed
+Sep 07 09:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 09:49 : client: [3] opened from 127.0.0.1:45832
+Sep 07 09:49 : player: played "nothuman.mp3"
+Sep 07 09:49 : client: [3] closed
