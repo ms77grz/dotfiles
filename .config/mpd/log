@@ -420,3 +420,109 @@ Sep 07 09:49 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Sep 07 09:49 : client: [3] opened from 127.0.0.1:45832
 Sep 07 09:49 : player: played "nothuman.mp3"
 Sep 07 09:49 : client: [3] closed
+Sep 07 11:24 : client: [4] opened from 127.0.0.1:45862
+Sep 07 11:24 : client: [4] closed
+Sep 07 11:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 11:24 : client: [5] opened from 127.0.0.1:45866
+Sep 07 11:24 : client: [5] closed
+Sep 07 11:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 11:24 : client: [6] opened from 127.0.0.1:45870
+Sep 07 11:24 : client: [6] closed
+Sep 07 11:24 : client: [7] opened from 127.0.0.1:45874
+Sep 07 11:25 : client: [7] closed
+Sep 07 11:25 : client: [8] opened from 127.0.0.1:45878
+Sep 07 11:25 : player: played "Season Song-1cbh8X5X2vk.mp3"
+Sep 07 11:25 : client: [8] closed
+Sep 07 11:25 : client: [9] opened from 127.0.0.1:45882
+Sep 07 11:25 : client: [9] closed
+Sep 07 11:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 11:25 : client: [10] opened from 127.0.0.1:45886
+Sep 07 11:25 : client: [10] closed
+Sep 07 11:25 : client: [11] opened from 127.0.0.1:45890
+Sep 07 11:25 : client: [11] closed
+Sep 07 11:25 : client: [12] opened from 127.0.0.1:45894
+Sep 07 11:25 : client: [12] closed
+Sep 07 11:25 : client: [13] opened from 127.0.0.1:45898
+Sep 07 11:25 : client: [13] closed
+Sep 07 11:25 : client: [14] opened from 127.0.0.1:45902
+Sep 07 11:25 : client: [14] closed
+Sep 07 11:25 : client: [15] opened from 127.0.0.1:45906
+Sep 07 11:25 : client: [15] closed
+Sep 07 11:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 11:25 : client: [16] opened from 127.0.0.1:45910
+Sep 07 11:25 : player: played "Season Song-1cbh8X5X2vk.mp3"
+Sep 07 11:25 : client: [16] closed
+Sep 07 19:21 : client: [17] opened from 127.0.0.1:46156
+Sep 07 19:21 : client: [17] closed
+Sep 07 19:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 19:24 : client: [18] opened from 127.0.0.1:46162
+Sep 07 19:24 : client: [18] closed
+Sep 07 19:24 : client: [19] opened from 127.0.0.1:46168
+Sep 07 19:24 : player: played "Season Song-1cbh8X5X2vk.mp3"
+Sep 07 19:24 : client: [19] closed
+Sep 07 19:24 : client: [20] opened from 127.0.0.1:46172
+Sep 07 19:24 : client: [20] closed
+Sep 07 19:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 19:24 : client: [21] opened from 127.0.0.1:46176
+Sep 07 19:24 : player: played "Season Song-1cbh8X5X2vk.mp3"
+Sep 07 19:24 : client: [21] closed
+Sep 07 19:32 : client: [22] opened from 127.0.0.1:46468
+Sep 07 19:32 : client: [22] closed
+Sep 07 19:32 : client: [23] opened from 127.0.0.1:46472
+Sep 07 19:32 : client: [23] closed
+Sep 07 19:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 19:32 : client: [24] opened from 127.0.0.1:46476
+Sep 07 19:32 : player: played "Season Song-1cbh8X5X2vk.mp3"
+Sep 07 19:32 : client: [24] closed
+Sep 07 20:12 : client: [25] opened from 127.0.0.1:46498
+Sep 07 20:12 : client: [25] closed
+Sep 07 20:12 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 20:12 : client: [26] opened from 127.0.0.1:46502
+Sep 07 20:12 : player: played "Season Song-1cbh8X5X2vk.mp3"
+Sep 07 20:12 : client: [26] closed
+Sep 07 20:13 : client: [27] opened from 127.0.0.1:46506
+Sep 07 20:13 : exception: Not playing
+Sep 07 20:13 : client: [27] closed
+Sep 07 20:13 : client: [28] opened from 127.0.0.1:46510
+Sep 07 20:13 : client: [28] closed
+Sep 07 20:13 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 20:17 : client: [29] opened from 127.0.0.1:46516
+Sep 07 20:17 : client: [29] closed
+Sep 07 21:29 : client: [30] opened from 127.0.0.1:47270
+Sep 07 21:29 : client: [30] closed
+Sep 07 21:29 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 07 21:29 : client: [31] opened from 127.0.0.1:47274
+Sep 07 21:29 : client: [31] closed
+Sep 08 20:20 : client: [32] opened from 127.0.0.1:48980
+Sep 08 20:20 : player: played "Anomaly (2016 Reissue)-q1tn6n4WPwg.mp3"
+Sep 08 20:20 : client: [32] closed
+Sep 08 20:20 : client: [33] opened from 127.0.0.1:48984
+Sep 08 20:20 : client: [33] closed
+Sep 08 20:20 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 08 20:20 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 08 20:26 : player: played "Anomaly (2016 Reissue)-q1tn6n4WPwg.mp3"
+Sep 08 20:27 : client: [34] opened from 127.0.0.1:49068
+Sep 08 20:27 : player: played "CHROMATICS 'LADY' (Official Video)-tbx8qRg6tPE.mp3"
+Sep 08 20:27 : client: [34] closed
+Sep 08 20:27 : client: [35] opened from 127.0.0.1:49076
+Sep 08 20:27 : client: [35] closed
+Sep 08 20:27 : client: [36] opened from 127.0.0.1:49080
+Sep 08 20:27 : player: played "CHROMATICS 'LADY' (Official Video)-tbx8qRg6tPE.mp3"
+Sep 08 20:27 : client: [36] closed
+Sep 08 20:27 : client: [37] opened from 127.0.0.1:49084
+Sep 08 20:27 : client: [37] closed
+Sep 08 20:27 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 08 20:27 : client: [38] opened from 127.0.0.1:49088
+Sep 08 20:27 : player: played "CHROMATICS 'LADY' (Official Video)-tbx8qRg6tPE.mp3"
+Sep 08 20:27 : client: [38] closed
+Sep 08 21:55 : client: [39] opened from 127.0.0.1:49548
+Sep 08 21:55 : client: [39] closed
+Sep 08 21:55 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 08 21:55 : client: [40] opened from 127.0.0.1:49552
+Sep 08 21:55 : client: [40] closed
+Sep 09 18:52 : client: [41] opened from 127.0.0.1:51084
+Sep 09 18:52 : client: [41] closed
+Sep 09 18:52 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 09 18:52 : client: [42] opened from 127.0.0.1:51088
+Sep 09 18:52 : player: played "CHROMATICS 'LADY' (Official Video)-tbx8qRg6tPE.mp3"
+Sep 09 18:52 : client: [42] closed
