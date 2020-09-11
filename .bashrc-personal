@@ -5,6 +5,7 @@
 export PATH="$PATH:~/.local/bin"
 export FZF_DEFAULT_OPTS='-m --bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-t:toggle-all'
 
+alias equipment="xdg-open ~/.devreg/ftth_hosts.csv &"
 alias tsm="transmission-remote"
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias sv="[ -d "venv" ] && source venv/bin/activate || echo \"There's no venv here!\""
@@ -36,7 +37,7 @@ alias tr="~/.local/share/translator/venv/bin/python ~/.local/share/translator/tr
 alias pyclean="find . -type d -name  "__pycache__" | grep -v venv | xargs rm -rf"
 alias xc="xclip -select clipboard"
 alias passgen="pwgen -s $1 -1 -v -c -0"
-alias ree="cat ~/webapps/networking/ftth/ftth_hosts.csv | fzf -m --bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-t:toggle-all | cut -d, -f 2,3,5,6,8,12-15"
+alias ree="cat ~/.devreg/ftth_hosts.csv | fzf -m --bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-t:toggle-all | cut -d, -f 2,3,5,6,8,12-15"
 alias rr=ranger
 alias aa="alias | fzf" # list all aliases
 alias ssht="ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no"
