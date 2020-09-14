@@ -3,9 +3,12 @@
 # You may place a similar script in $HOME/.config/openbox/autostart
 # to run user-specific things.
 #
-# You can set compton to use either xrender or glx
+# You can set picom to use either xrender or glx
 # Change if issues
 picom -b --config ~/.config/picom.conf &
+
+# start ArcoLinux Welcome  App
+#dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 
 # Set background image
 #nitrogen --restore
@@ -13,15 +16,15 @@ picom -b --config ~/.config/picom.conf &
 tint2 &
 #$HOME/.config/polybar/launch.sh &
 
-(am-conky-session --autostart) &
+#(am-conky-session --autostart) &
 
 #bluetooth#
 #(blueberry-tray) &
 
 # install xcape - press super to get menu
-#xcape -e 'Super_L=Super_L|space'
+xcape -e 'Super_L=Super_L|space'
 
-# on laptops without seperate numeric keyboard put hashtag in front
+#on laptops without seperate numeric keyboard put hashtag in front
 numlockx &
 
 # keyboard layout
@@ -30,7 +33,7 @@ setxkbmap -model pc105 -layout us,ru -variant qwerty -option grp:win_space_toggl
 ## GNOME PolicyKit authentication
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
-## Desktop notifications
+## Desktop notification
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 ## Volume control for systray
