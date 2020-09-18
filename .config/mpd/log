@@ -575,3 +575,13 @@ Sep 16 20:29 : exception: RTIOThread could not get realtime scheduling, continui
 Sep 16 20:29 : avahi: Service 'Music Player @ nanobot' successfully established.
 Sep 16 20:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Sep 16 20:54 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 16 21:22 : client: [0] opened from 127.0.0.1:56446
+Sep 16 21:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 16 21:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 16 21:22 : client: [0] closed
+Sep 16 21:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 16 21:22 : client: [1] opened from 127.0.0.1:56450
+Sep 16 21:22 : player: played "CHROMATICS 'LADY' (Official Video)-tbx8qRg6tPE.mp3"
+Sep 16 21:22 : client: [1] closed
+Sep 16 21:22 : client: [2] opened from 127.0.0.1:56454
+Sep 16 21:22 : client: [2] closed

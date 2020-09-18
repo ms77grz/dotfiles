@@ -1,136 +1,120 @@
-2020-07-30	rc.xml KEYBINDS
+2020-09-16	rc.xml KEYBINDS
 -------------------------------
 
  0	W-S-r           	openbox --reconfigure
- 1	W-1             	GoToDesktop
- 2	W-2             	GoToDesktop
- 3	W-3             	GoToDesktop
- 4	W-4             	GoToDesktop
- 5	W-5             	GoToDesktop
- 6	W-6             	GoToDesktop
- 7	W-7             	GoToDesktop
- 8	W-8             	GoToDesktop
- 9	W-9             	GoToDesktop
-10	W-0             	GoToDesktop
-11	C-1             	SendToDesktop
-12	C-2             	SendToDesktop
-13	C-3             	SendToDesktop
-14	C-4             	SendToDesktop
-15	C-5             	SendToDesktop
-16	C-6             	SendToDesktop
-17	C-7             	SendToDesktop
-18	C-8             	SendToDesktop
-19	C-9             	SendToDesktop
-20	C-0             	SendToDesktop
-21	W-KP_0          	Iconify
-22	W-KP_1          	UnmaximizeFull
-23	W-KP_2          	UnmaximizeFull
-24	W-KP_3          	UnmaximizeFull
-25	W-KP_4          	UnmaximizeFull
-26	W-KP_5          	MaximizeFull
-27	W-KP_6          	UnmaximizeFull
-28	W-KP_7          	UnmaximizeFull
-29	W-KP_8          	UnmaximizeFull
-30	W-KP_9          	UnmaximizeFull
-31	W-KP_Enter      	UnmaximizeFull
-32	C-A-Right       	DesktopRight
-33	C-A-Left        	GoToDesktop
-34	C-A-Up          	GoToDesktop
-35	C-A-Down        	GoToDesktop
-36	A-Tab           	NextWindow
-37	A-S-Tab         	PreviousWindow
-38	W-S-Right       	DirectionalCycleWindows
-39	W-S-Left        	DirectionalCycleWindows
+ 1	W-S-Left        	MoveResizeTo
+ 2	W-S-Right       	MoveResizeTo
+ 3	W-1             	GoToDesktop
+ 4	W-2             	GoToDesktop
+ 5	W-3             	GoToDesktop
+ 6	W-4             	GoToDesktop
+ 7	W-5             	GoToDesktop
+ 8	W-6             	GoToDesktop
+ 9	W-7             	GoToDesktop
+10	W-8             	GoToDesktop
+11	W-9             	GoToDesktop
+12	W-0             	GoToDesktop
+13	C-1             	SendToDesktop
+14	C-2             	SendToDesktop
+15	C-3             	SendToDesktop
+16	C-4             	SendToDesktop
+17	C-5             	SendToDesktop
+18	C-6             	SendToDesktop
+19	C-7             	SendToDesktop
+20	C-8             	SendToDesktop
+21	C-9             	SendToDesktop
+22	C-0             	SendToDesktop
+23	W-KP_0          	Iconify
+24	W-KP_1          	UnmaximizeFull
+25	W-KP_2          	UnmaximizeFull
+26	W-KP_3          	UnmaximizeFull
+27	W-KP_4          	UnmaximizeFull
+28	W-KP_5          	MaximizeFull
+29	W-KP_6          	UnmaximizeFull
+30	W-KP_7          	UnmaximizeFull
+31	W-KP_8          	UnmaximizeFull
+32	W-KP_9          	UnmaximizeFull
+33	W-KP_Enter      	UnmaximizeFull
+34	C-A-Right       	DesktopRight
+35	C-A-Left        	GoToDesktop
+36	C-A-Up          	GoToDesktop
+37	C-A-Down        	GoToDesktop
+38	A-Tab           	NextWindow
+39	A-S-Tab         	PreviousWindow
 40	W-S-Up          	DirectionalCycleWindows
 41	W-S-Down        	DirectionalCycleWindows
 42	S-A-Left        	SendToDesktopLeft
 43	S-A-Right       	SendToDesktopRight
-44	S-A-Up          	SendToDesktopUp
-45	S-A-Down        	SendToDesktopDown
-46	A-Escape        	Lower
-47	A-space         	client-menu
-48	XF86AudioStop   	playerctl pause
-49	XF86AudioPlay   	playerctl play-pause
-50	XF86AudioPrev   	playerctl previous
-51	XF86AudioNext   	playerctl next
-52	XF86MonBrightnessUp	xbacklight +10
-53	XF86MonBrightnessDown	xbacklight -10
-54	Print           	scrot 'ArcoLinux_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES)'
-55	A-Print         	scrot -d 5 'ArcoLinux_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICT.....
-56	C-Print         	xfce4-screenshooter
-57	W-slash         	gmrun
-58	A-F3            	xfce4-appfinder
-59	W-S-d           	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'Z.....
-60	A-F6            	ToggleMaximize
-61	W-d             	ToggleShowDesktop
-62	W-b             	ToggleDecorations
-63	W-f             	exo-open --launch FileManager
-64	W-t             	urxvt
-65	W-c             	conky-toggle
-66	W-n             	xfce4-notes
-67	C-A-Return      	exo-open --launch TerminalEmulator
-68	W-w             	exo-open --launch WebBrowser
-69	W-k             	slimlock
-70	W-l             	lockscreen
-71	W-e             	geany
-72	W-h             	urxvt -T 'htop task manager' -e htop
-73	W-v             	pavucontrol
-74	W-x             	oblogout
-75	W-Escape        	xkill
-76	W-Tab           	client-list-combined-menu
-77	W-z             	root-menu
-78	W-Right         	UnmaximizeFull
-79	W-Left          	UnmaximizeFull
-80	W-Up            	MaximizeFull
-81	W-Down          	UnmaximizeFull
-82	W-A-Left        	UnmaximizeFull
-83	W-A-Right       	UnmaximizeFull
-84	A-r             	Resize
-85	A-m             	Move
-86	A-t             	variety -t
-87	A-f             	variety -f
-88	A-p             	variety -p
-89	A-n             	variety -n
-90	A-Down          	variety --resume
-91	A-Up            	variety --pause
-92	W-q             	Close
-93	W-Return        	termite
-94	S-W-Return      	thunar
-95	W-F1            	exo-open --launch webbrowser
-96	W-s             	subl3
-97	W-F3            	inkscape
-98	W-F4            	gimp
-99	W-F5            	meld
-100	W-F6            	vlc
-101	A-v             	virtualbox
-102	W-F8            	thunar
-103	W-F9            	evolution
-104	W-F10           	spotify
-105	C-A-space       	rofi -show run -font "Zekton 13"
-106	C-space         	/usr/bin/bash /usr/local/bin/menu-surfraw
-107	C-S-Escape      	xfce4-taskmanager
-108	C-A-q           	root-menu
-109	C-A-m           	xfce4-settings-manager
-110	C-A-r           	rofi-theme-selector
-111	C-A-j           	obmenu3
-112	C-A-k           	obkey
-113	C-A-a           	xfce4-appfinder
-114	C-A-T           	termite
-115	A-c             	galculator
-116	C-A-B           	thunar
-117	C-A-S           	spotify
-118	C-A-C           	catfish
-119	C-A-i           	nitrogen
-120	C-A-O           	obconf
-121	C-A-KP_8        	conky-rotate -n
-122	C-A-KP_2        	conky-rotate -p
-123	C-A-KP_Next     	conky-rotate -n
-124	C-A-KP_Prior    	conky-rotate -p
-125	C-A-Next        	conky-rotate -n
-126	C-A-Prior       	conky-rotate -p
-127	W-m             	manuals.sh
-128	C-S-r           	dmenurecord
-129	A-b             	books
-130	A-e             	emojis2
-131	C-S-KP_Add      	picom-trans -c +10
-132	C-S-KP_Subtract 	picom-trans -c -10
+44	A-Escape        	Lower
+45	A-space         	client-menu
+46	XF86AudioPlay   	mpc toggle
+47	XF86AudioStop   	mpc stop
+48	XF86AudioNext   	mpc next
+49	XF86AudioPrev   	mpc prev
+50	XF86MonBrightnessUp	xbacklight +10
+51	XF86MonBrightnessDown	xbacklight -10
+52	Print           	scrot 'ArcoLinux_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES)'
+53	A-Print         	scrot -d 5 'ArcoLinux_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICT.....
+54	C-Print         	xfce4-screenshooter
+55	W-slash         	gmrun
+56	W-p             	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'Z.....
+57	A-F3            	xfce4-appfinder
+58	A-F6            	ToggleMaximize
+59	W-d             	ToggleShowDesktop
+60	W-b             	ToggleDecorations
+61	W-t             	urxvt
+62	W-c             	conky-toggle
+63	W-n             	xfce4-notes
+64	W-w             	exo-open --launch WebBrowser
+65	W-k             	slimlock
+66	C-l             	lockscreen
+67	W-l             	libreoffice
+68	W-h             	urxvt -T 'htop task manager' -e htop
+69	W-v             	pavucontrol
+70	W-x             	arcolinux-logout
+71	W-Escape        	xkill
+72	W-Tab           	client-list-combined-menu
+73	W-z             	root-menu
+74	W-Up            	MaximizeFull
+75	W-Down          	UnmaximizeFull
+76	W-A-Left        	UnmaximizeFull
+77	W-A-Right       	UnmaximizeFull
+78	A-r             	Resize
+79	A-m             	Move
+80	A-t             	variety -t
+81	A-f             	variety -f
+82	A-p             	variety -p
+83	A-n             	variety -n
+84	A-d             	variety --resume
+85	A-u             	variety --pause
+86	W-q             	Close
+87	W-Return        	alacritty
+88	S-A-Return      	st
+89	S-W-Return      	thunar
+90	W-F1            	exo-open --launch webbrowser
+91	W-s             	subl3
+92	A-v             	virt-manager
+93	C-A-space       	/usr/bin/bash /usr/local/bin/menu-surfraw
+94	C-S-Escape      	xfce4-taskmanager
+95	C-A-m           	xfce4-settings-manager
+96	C-A-r           	rofi-theme-selector
+97	C-A-j           	obmenu3
+98	C-A-k           	obkey
+99	C-A-a           	xfce4-appfinder
+100	A-c             	galculator
+101	C-A-S           	spotify
+102	C-A-C           	catfish
+103	C-A-i           	nitrogen
+104	C-A-O           	obconf
+105	C-A-KP_8        	conky-rotate -n
+106	C-A-KP_2        	conky-rotate -p
+107	C-A-KP_Next     	conky-rotate -n
+108	C-A-KP_Prior    	conky-rotate -p
+109	C-A-Next        	conky-rotate -n
+110	C-A-Prior       	conky-rotate -p
+111	W-m             	manuals.sh
+112	C-S-r           	dmenurecord
+113	A-b             	books
+114	A-e             	~/.local/bin/emojis2
+115	C-S-KP_Add      	picom-trans -c +10
+116	C-S-KP_Subtract 	picom-trans -c -10

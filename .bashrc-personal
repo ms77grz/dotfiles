@@ -6,6 +6,7 @@ export PATH="$PATH:~/.local/bin"
 export FZF_DEFAULT_OPTS='-m --bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-t:toggle-all'
 
 alias radio="curseradio"
+alias date='date "+DATE: %d/%m/%y%nTIME: %H:%M:%S"'
 alias gpon="xdg-open ~/.devreg/gpon_hosts.csv &"
 alias equipment="xdg-open ~/.devreg/ftth_hosts.csv &"
 alias tsm="transmission-remote"
@@ -82,3 +83,4 @@ HISTTIMEFORMAT="%d/%m/%y %T "
 # BLUE="\033[34m"
 # WHITE="\033[0m"
 # PS1="[${RED}\u${GREEN}@${BLUE}\h ${YELLOW}\w]\$ $WHITE"
+
