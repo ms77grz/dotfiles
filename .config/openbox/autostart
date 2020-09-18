@@ -62,3 +62,8 @@ xfsettingsd &
 #dropbox &
 
 mpd &
+
+sleep 10
+
+conky -c /home/ms77grz/HDD/guiapps/luastart/test2.lua & sleep 1
+
