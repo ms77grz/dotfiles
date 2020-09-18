@@ -2,5 +2,178 @@
 <openbox_menu xmlns="http://openbox.org/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://openbox.org/">
-    <menu id="root-menu" label="obmenu-generator" execute="/usr/bin/obmenu-generator" />
+  <menu id="root-menu" label="Applications">
+  <separator label="ArcoLinux"/>
+    <item label="Terminal" icon="/home/ms77grz/.config/obmenu-generator/icons/8a8a8163efadef55ff4f51a0ee60c704.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="File Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/682ff956a659eac872e299da6b431022.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Web Browser" icon="/home/ms77grz/.config/obmenu-generator/icons/b55b210f0d03e4a8e2048a836322ff1b.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser ]]></command></action></item>
+  <separator/>
+  <menu id="0.969966358346031" icon="/home/ms77grz/.config/obmenu-generator/icons/e7bc95c346232be328c575c679d2355c.png" label="Accessories">
+    <item label="Application Finder" icon="/home/ms77grz/.config/obmenu-generator/icons/b034456492774ce7806108b3797c3a27.png"><action name="Execute"><command><![CDATA[xfce4-appfinder]]></command></action></item>
+    <item label="Archive Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/1f149401f3580c10b1bead1b25455105.png"><action name="Execute"><command><![CDATA[file-roller]]></command></action></item>
+    <item label="ArcoLinux Betterlockscreen" icon="/home/ms77grz/.config/obmenu-generator/icons/7dbe2cef63192376aa2717de7c822e3d.png"><action name="Execute"><command><![CDATA[/usr/local/bin/arcolinux-betterlockscreen]]></command></action></item>
+    <item label="Arcolinux Tweak Tool" icon="/home/ms77grz/.config/obmenu-generator/icons/e9dd6eacfc5198f2f043e5cf49b71420.png"><action name="Execute"><command><![CDATA[/usr/local/bin/arcolinux-tweak-tool]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/ms77grz/.config/obmenu-generator/icons/ca49b53700544fbb4396ce582cd1b21f.png"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="Clipboard Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/9b1e4c14052d753c8c0fdf503b177838.png"><action name="Execute"><command><![CDATA[xfce4-clipman]]></command></action></item>
+    <item label="Code - OSS" icon="/home/ms77grz/.config/obmenu-generator/icons/28d73334a7aa261aa850bf44f36a2b2a.png"><action name="Execute"><command><![CDATA[/usr/bin/code-oss --no-sandbox --unity-launch]]></command></action></item>
+    <item label="Conky Toggle" icon="/home/ms77grz/.config/obmenu-generator/icons/0343c7270433a50ec54f26dd2ccb11dd.png"><action name="Execute"><command><![CDATA[conky-toggle]]></command></action></item>
+    <item label="Conkyzen" icon="/home/ms77grz/.config/obmenu-generator/icons/0343c7270433a50ec54f26dd2ccb11dd.png"><action name="Execute"><command><![CDATA[am-conkyzen]]></command></action></item>
+    <item label="File Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/ca49b53700544fbb4396ce582cd1b21f.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Files" icon="/home/ms77grz/.config/obmenu-generator/icons/ca49b53700544fbb4396ce582cd1b21f.png"><action name="Execute"><command><![CDATA[nautilus --new-window]]></command></action></item>
+    <item label="Galculator" icon="/home/ms77grz/.config/obmenu-generator/icons/24b3d5f4128f5efd235fb0eac520a67e.png"><action name="Execute"><command><![CDATA[galculator]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/4a81aa10777e5592e5fb9f35fc930dc0.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/ms77grz/.config/obmenu-generator/icons/a621b1b5caa75809bc24a348105b492d.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Neovim" icon="/home/ms77grz/.config/obmenu-generator/icons/cf7f41eb3ac65c6beecf5dc675ca9c50.png"><action name="Execute"><command><![CDATA[termite -e 'nvim']]></command></action></item>
+    <item label="Run Program..." icon="/home/ms77grz/.config/obmenu-generator/icons/243dae5db725e535a76161f84bef7996.png"><action name="Execute"><command><![CDATA[xfce4-appfinder --collapsed]]></command></action></item>
+    <item label="Screenshot" icon="/home/ms77grz/.config/obmenu-generator/icons/ee99b009e8a07f5318a862c03fe68b5c.png"><action name="Execute"><command><![CDATA[gnome-screenshot --interactive]]></command></action></item>
+    <item label="Screenshot" icon="/home/ms77grz/.config/obmenu-generator/icons/ee99b009e8a07f5318a862c03fe68b5c.png"><action name="Execute"><command><![CDATA[xfce4-screenshooter]]></command></action></item>
+    <item label="Software Token (small)" icon="/home/ms77grz/.config/obmenu-generator/icons/b2a207d9af272b5d782f96268b23ccd4.png"><action name="Execute"><command><![CDATA[stoken-gui --small]]></command></action></item>
+    <item label="Software Token" icon="/home/ms77grz/.config/obmenu-generator/icons/b2a207d9af272b5d782f96268b23ccd4.png"><action name="Execute"><command><![CDATA[stoken-gui]]></command></action></item>
+    <item label="Task Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/e7bc95c346232be328c575c679d2355c.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/ms77grz/.config/obmenu-generator/icons/8a8a8163efadef55ff4f51a0ee60c704.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/ca49b53700544fbb4396ce582cd1b21f.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="USB Image Writer" icon="/home/ms77grz/.config/obmenu-generator/icons/3dd05b7f19d7199c7e710830d46195e3.png"><action name="Execute"><command><![CDATA[mintstick -m iso]]></command></action></item>
+    <item label="USB Stick Formatter" icon="/home/ms77grz/.config/obmenu-generator/icons/3dd05b7f19d7199c7e710830d46195e3.png"><action name="Execute"><command><![CDATA[mintstick -m format]]></command></action></item>
+    <item label="Variety" icon="/home/ms77grz/.config/obmenu-generator/icons/6abf3f8e0b0b1a6481a71c209fedffa5.png"><action name="Execute"><command><![CDATA[variety]]></command></action></item>
+    <item label="Vim" icon="/home/ms77grz/.config/obmenu-generator/icons/9b01d8c22b1297fdd86f6932516b73e8.png"><action name="Execute"><command><![CDATA[termite -e 'vim']]></command></action></item>
+  </menu>
+  <menu id="0.417572756388353" icon="/home/ms77grz/.config/obmenu-generator/icons/2a70d931375235297cce5b967d33eb6d.png" label="Development">
+    <item label="CMake" icon="/home/ms77grz/.config/obmenu-generator/icons/01b3cfac4249074161c1c26c6fba3c1b.png"><action name="Execute"><command><![CDATA[cmake-gui]]></command></action></item>
+    <item label="Code - OSS" icon="/home/ms77grz/.config/obmenu-generator/icons/28d73334a7aa261aa850bf44f36a2b2a.png"><action name="Execute"><command><![CDATA[/usr/bin/code-oss --no-sandbox --unity-launch]]></command></action></item>
+    <item label="Geany" icon="/home/ms77grz/.config/obmenu-generator/icons/911f88d2af2dc7954534277250c8bddd.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+    <item label="Meld" icon="/home/ms77grz/.config/obmenu-generator/icons/7bf5be5074b7ced697cc634514cbe15e.png"><action name="Execute"><command><![CDATA[meld]]></command></action></item>
+    <item label="Sublime Text 3 Dev" icon="/home/ms77grz/.config/obmenu-generator/icons/2960b0fe6c0bd31e952253f74ae1296c.png"><action name="Execute"><command><![CDATA[subl3]]></command></action></item>
+  </menu>
+  <menu id="0.689160580785153" icon="/home/ms77grz/.config/obmenu-generator/icons/26860da6b0cf8a8d6a1d33187be09d10.png" label="Education">
+    <item label="LibreOffice Math" icon="/home/ms77grz/.config/obmenu-generator/icons/4b82b1ccd85cef9cc8d4551b795b7699.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+  </menu>
+  <menu id="0.881540040808382" icon="/home/ms77grz/.config/obmenu-generator/icons/6802ae9cc83d21b386a07678f11afd0a.png" label="Graphics">
+    <item label="Blender" icon="/home/ms77grz/.config/obmenu-generator/icons/633991e191eb860cdfa9ea08d73ad189.png"><action name="Execute"><command><![CDATA[blender]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/ms77grz/.config/obmenu-generator/icons/8b54cca8a4075aa628b3738b8e0022f1.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="Ristretto Image Viewer" icon="/home/ms77grz/.config/obmenu-generator/icons/b4c4a4bcc458629dcb2164552a96ef87.png"><action name="Execute"><command><![CDATA[ristretto]]></command></action></item>
+  </menu>
+  <menu id="0.971605468669697" icon="/home/ms77grz/.config/obmenu-generator/icons/870b56e7aa7ece1a94c178e5ca717b28.png" label="Multimedia">
+    <item label="mpv Media Player" icon="/home/ms77grz/.config/obmenu-generator/icons/2a0afc74329aa1b739cbd61f9f3aee9b.png"><action name="Execute"><command><![CDATA[mpv --player-operation-mode=pseudo-gui --]]></command></action></item>
+  </menu>
+  <menu id="0.738166267270557" icon="/home/ms77grz/.config/obmenu-generator/icons/b55b210f0d03e4a8e2048a836322ff1b.png" label="Network">
+    <item label="FileZilla" icon="/home/ms77grz/.config/obmenu-generator/icons/6cc8bc600e6dd39a7d57bbc039bb1709.png"><action name="Execute"><command><![CDATA[filezilla]]></command></action></item>
+    <item label="Firefox" icon="/home/ms77grz/.config/obmenu-generator/icons/c299e8fc43dacd76d523486b4fbb3f0a.png"><action name="Execute"><command><![CDATA[/usr/lib/firefox/firefox]]></command></action></item>
+    <item label="Mail Reader" icon="/home/ms77grz/.config/obmenu-generator/icons/11d03488806920129f6258d28b34630a.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="Telegram Desktop" icon="/home/ms77grz/.config/obmenu-generator/icons/b006e7e9ab9de8acd41ade2a0228e197.png"><action name="Execute"><command><![CDATA[telegram-desktop --]]></command></action></item>
+    <item label="Web Browser" icon="/home/ms77grz/.config/obmenu-generator/icons/b55b210f0d03e4a8e2048a836322ff1b.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+  </menu>
+  <menu id="0.997645205489189" icon="/home/ms77grz/.config/obmenu-generator/icons/335ee85a385c42312eb5590d42dd1f39.png" label="Office">
+    <item label="LibreOffice Base" icon="/home/ms77grz/.config/obmenu-generator/icons/372744fef861257f285041a9b3433ea2.png"><action name="Execute"><command><![CDATA[libreoffice --base]]></command></action></item>
+    <item label="LibreOffice Calc" icon="/home/ms77grz/.config/obmenu-generator/icons/9ed5e3b77df7ac47fab2d9f3b78b3117.png"><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/ms77grz/.config/obmenu-generator/icons/8b54cca8a4075aa628b3738b8e0022f1.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="LibreOffice Impress" icon="/home/ms77grz/.config/obmenu-generator/icons/bb2473ebbc1263445a61dc1721add034.png"><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+    <item label="LibreOffice Math" icon="/home/ms77grz/.config/obmenu-generator/icons/4b82b1ccd85cef9cc8d4551b795b7699.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+    <item label="LibreOffice Writer" icon="/home/ms77grz/.config/obmenu-generator/icons/7e4afa9708ed752b378beabc6a77e6e8.png"><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+    <item label="LibreOffice" icon="/home/ms77grz/.config/obmenu-generator/icons/b265225d960c8ae7a507db40b6a1c413.png"><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
+  </menu>
+  <menu id="0.665613269474385" icon="/home/ms77grz/.config/obmenu-generator/icons/2b71336b25aa340f0012426790818e59.png" label="Other">
+    <item label="NVIDIA X Server Settings" icon="/home/ms77grz/.config/obmenu-generator/icons/4a990ff341c3e38eba8062e13924eacb.png"><action name="Execute"><command><![CDATA[/usr/bin/nvidia-settings]]></command></action></item>
+  </menu>
+  <menu id="0.676836644523437" icon="/home/ms77grz/.config/obmenu-generator/icons/1550c857a1bb310f7b9c7e08132f2571.png" label="Settings">
+    <item label="Adblock" icon="/home/ms77grz/.config/obmenu-generator/icons/697c8555f7a50aa72945ff4d6b0f1228.png"><action name="Execute"><command><![CDATA[termite -e "pkexec hblock -b" --hold]]></command></action></item>
+    <item label="Add/Remove Software" icon="/home/ms77grz/.config/obmenu-generator/icons/438df5d97dd855d4ab903e953e3c0957.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Advanced Network Configuration" icon="/home/ms77grz/.config/obmenu-generator/icons/3f058b89f1aeafc42a4b3c929e0de3ed.png"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="Appearance" icon="/home/ms77grz/.config/obmenu-generator/icons/7a73acf08200663e20e15d5225afba7d.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+    <item label="ArcoLinux Betterlockscreen" icon="/home/ms77grz/.config/obmenu-generator/icons/7dbe2cef63192376aa2717de7c822e3d.png"><action name="Execute"><command><![CDATA[/usr/local/bin/arcolinux-betterlockscreen]]></command></action></item>
+    <item label="Arcolinux Tweak Tool" icon="/home/ms77grz/.config/obmenu-generator/icons/e9dd6eacfc5198f2f043e5cf49b71420.png"><action name="Execute"><command><![CDATA[/usr/local/bin/arcolinux-tweak-tool]]></command></action></item>
+    <item label="Arcolinux Welcome" icon="/home/ms77grz/.config/obmenu-generator/icons/ff3e2d00d80f4d98246c69fa49779948.png"><action name="Execute"><command><![CDATA[/usr/local/bin/arcolinux-welcome-app]]></command></action></item>
+    <item label="Bluetooth" icon="/home/ms77grz/.config/obmenu-generator/icons/2a1ddc5124a5da8b4c33c12805db0f9a.png"><action name="Execute"><command><![CDATA[blueberry]]></command></action></item>
+    <item label="Clipboard Manager Settings" icon="/home/ms77grz/.config/obmenu-generator/icons/9b1e4c14052d753c8c0fdf503b177838.png"><action name="Execute"><command><![CDATA[xfce4-clipman-settings]]></command></action></item>
+    <item label="Color Profiles" icon="/home/ms77grz/.config/obmenu-generator/icons/6802ae9cc83d21b386a07678f11afd0a.png"><action name="Execute"><command><![CDATA[xfce4-color-settings]]></command></action></item>
+    <item label="Conkyzen" icon="/home/ms77grz/.config/obmenu-generator/icons/0343c7270433a50ec54f26dd2ccb11dd.png"><action name="Execute"><command><![CDATA[am-conkyzen]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/ms77grz/.config/obmenu-generator/icons/7a73acf08200663e20e15d5225afba7d.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="dconf Editor" icon="/home/ms77grz/.config/obmenu-generator/icons/a94020c66bf411f6fcc68f5ba2a7e9db.png"><action name="Execute"><command><![CDATA[dconf-editor]]></command></action></item>
+    <item label="Disks" icon="/home/ms77grz/.config/obmenu-generator/icons/b7cc37529539449ab798d53c5fa90edc.png"><action name="Execute"><command><![CDATA[gnome-disks]]></command></action></item>
+    <item label="Display" icon="/home/ms77grz/.config/obmenu-generator/icons/e4cff59ebd6d6ecb89293f8127c0295a.png"><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+    <item label="File Manager Settings" icon="/home/ms77grz/.config/obmenu-generator/icons/ca49b53700544fbb4396ce582cd1b21f.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="Fix Hardcoded Icons" icon="/home/ms77grz/.config/obmenu-generator/icons/82788a86c287edec48f27e821bf69289.png"><action name="Execute"><command><![CDATA[bash -c 'zenity --info --title="Fixing all hardcoded path icons" --text="An empty window means that all icons were already fixed.
+$(pkexec hardcode-fixer)" --width=500 --height=300']]></command></action></item>
+    <item label="GParted" icon="/home/ms77grz/.config/obmenu-generator/icons/9f2145d399c09434acbeff273351e6e9.png"><action name="Execute"><command><![CDATA[/usr/bin/gparted]]></command></action></item>
+    <item label="Grub Customizer" icon="/home/ms77grz/.config/obmenu-generator/icons/2efed41e25e6f16bc1c199cc05ed7227.png"><action name="Execute"><command><![CDATA[grub-customizer]]></command></action></item>
+    <item label="Kvantum Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/4a81aa10777e5592e5fb9f35fc930dc0.png"><action name="Execute"><command><![CDATA[kvantummanager]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/ms77grz/.config/obmenu-generator/icons/a621b1b5caa75809bc24a348105b492d.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="MIME Type Editor" icon="/home/ms77grz/.config/obmenu-generator/icons/97a9d07d151ee7b64092d762cf58cb81.png"><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+    <item label="Monitor Settings" icon="/home/ms77grz/.config/obmenu-generator/icons/e4cff59ebd6d6ecb89293f8127c0295a.png"><action name="Execute"><command><![CDATA[lxrandr]]></command></action></item>
+    <item label="Mouse and Touchpad" icon="/home/ms77grz/.config/obmenu-generator/icons/9720fd3f008ce5a95cd5adac450b136c.png"><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+    <item label="Notifications" icon="/home/ms77grz/.config/obmenu-generator/icons/821c776104fc31fbf400b49b56a668e7.png"><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+    <item label="Panel" icon="/home/ms77grz/.config/obmenu-generator/icons/5de4f9bca38db8223edd3755a7940389.png"><action name="Execute"><command><![CDATA[xfce4-panel --preferences]]></command></action></item>
+    <item label="Power Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/90194514541f1e25d0116003ba18b587.png"><action name="Execute"><command><![CDATA[xfce4-power-manager-settings]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/ms77grz/.config/obmenu-generator/icons/67afcd22557336aebd440c621be2ebe8.png"><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+    <item label="Print Settings" icon="/home/ms77grz/.config/obmenu-generator/icons/25f054a8ded0a292ba01ab995ef897cb.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Privilege granting" icon="/home/ms77grz/.config/obmenu-generator/icons/8817706923219831b68dfe33e98df3f4.png"><action name="Execute"><command><![CDATA[gksu-properties]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/ms77grz/.config/obmenu-generator/icons/375fdfa45d789937ef9d723c25101e75.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt5 Settings" icon="/home/ms77grz/.config/obmenu-generator/icons/7a73acf08200663e20e15d5225afba7d.png"><action name="Execute"><command><![CDATA[qt5ct]]></command></action></item>
+    <item label="Quick System Info" icon="/home/ms77grz/.config/obmenu-generator/icons/021207d6c46afb9b1e9eb1fc7d9d3be2.png"><action name="Execute"><command><![CDATA[termite -e "/usr/bin/inxi -F" --hold]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/ms77grz/.config/obmenu-generator/icons/1d577eeb88f1713f52676d0f38108ed8.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="Settings Editor" icon="/home/ms77grz/.config/obmenu-generator/icons/1550c857a1bb310f7b9c7e08132f2571.png"><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+    <item label="Settings Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/01a1eb8ab5c9f5c02add2f9f5aed6471.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+    <item label="Software Update" icon="/home/ms77grz/.config/obmenu-generator/icons/bfe1d02cea967ca6e7e4de07372df57a.png"><action name="Execute"><command><![CDATA[pamac-manager --updates]]></command></action></item>
+    <item label="System Profiler and Benchmark" icon="/home/ms77grz/.config/obmenu-generator/icons/021207d6c46afb9b1e9eb1fc7d9d3be2.png"><action name="Execute"><command><![CDATA[hardinfo]]></command></action></item>
+    <item label="USB Image Writer" icon="/home/ms77grz/.config/obmenu-generator/icons/3dd05b7f19d7199c7e710830d46195e3.png"><action name="Execute"><command><![CDATA[mintstick -m iso]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/ms77grz/.config/obmenu-generator/icons/8a8a8163efadef55ff4f51a0ee60c704.png"><action name="Execute"><command><![CDATA[xfce4-terminal --preferences]]></command></action></item>
+  </menu>
+  <menu id="0.163149691012904" icon="/home/ms77grz/.config/obmenu-generator/icons/97a9d07d151ee7b64092d762cf58cb81.png" label="System">
+    <item label="Add/Remove Software" icon="/home/ms77grz/.config/obmenu-generator/icons/438df5d97dd855d4ab903e953e3c0957.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Alacritty" icon="/home/ms77grz/.config/obmenu-generator/icons/10717cb2ebad54047ab4358f5e4bd3bc.png"><action name="Execute"><command><![CDATA[alacritty]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/ms77grz/.config/obmenu-generator/icons/ca49b53700544fbb4396ce582cd1b21f.png"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="Conky Toggle" icon="/home/ms77grz/.config/obmenu-generator/icons/0343c7270433a50ec54f26dd2ccb11dd.png"><action name="Execute"><command><![CDATA[conky-toggle]]></command></action></item>
+    <item label="LightDM GTK+ Greeter settings" icon="/home/ms77grz/.config/obmenu-generator/icons/a621b1b5caa75809bc24a348105b492d.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+    <item label="Manage Printing" icon="/home/ms77grz/.config/obmenu-generator/icons/25f054a8ded0a292ba01ab995ef897cb.png"><action name="Execute"><command><![CDATA[/usr/bin/xdg-open http://localhost:631/]]></command></action></item>
+    <item label="Print Settings" icon="/home/ms77grz/.config/obmenu-generator/icons/25f054a8ded0a292ba01ab995ef897cb.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="ranger" icon="/home/ms77grz/.config/obmenu-generator/icons/8a8a8163efadef55ff4f51a0ee60c704.png"><action name="Execute"><command><![CDATA[termite -e 'ranger']]></command></action></item>
+    <item label="Software Update" icon="/home/ms77grz/.config/obmenu-generator/icons/bfe1d02cea967ca6e7e4de07372df57a.png"><action name="Execute"><command><![CDATA[pamac-manager --updates]]></command></action></item>
+    <item label="Task Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/e7bc95c346232be328c575c679d2355c.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Termite" icon="/home/ms77grz/.config/obmenu-generator/icons/8a8a8163efadef55ff4f51a0ee60c704.png"><action name="Execute"><command><![CDATA[termite]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/ca49b53700544fbb4396ce582cd1b21f.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="USB Image Writer" icon="/home/ms77grz/.config/obmenu-generator/icons/243dae5db725e535a76161f84bef7996.png"><action name="Execute"><command><![CDATA[mintstick -m iso]]></command></action></item>
+    <item label="USB Stick Formatter" icon="/home/ms77grz/.config/obmenu-generator/icons/243dae5db725e535a76161f84bef7996.png"><action name="Execute"><command><![CDATA[mintstick -m format]]></command></action></item>
+    <item label="Virtual Machine Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/0a3544e7388a4d7d6e8f45a362ebd822.png"><action name="Execute"><command><![CDATA[virt-manager]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/ms77grz/.config/obmenu-generator/icons/8a8a8163efadef55ff4f51a0ee60c704.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+  </menu>
+  <separator/>
+    <menu id="0.97862388358207" label="Conky" execute="am-conky-pipemenu" icon="/home/ms77grz/.config/obmenu-generator/icons/0343c7270433a50ec54f26dd2ccb11dd.png"/>
+  <menu id="0.403299414310347" icon="/home/ms77grz/.config/obmenu-generator/icons/7dbe2cef63192376aa2717de7c822e3d.png" label="Preferences">
+    <item label="Nitrogen" icon="/home/ms77grz/.config/obmenu-generator/icons/001bb894d483f50a1d85741e721f8463.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="Lxappearance" icon="/home/ms77grz/.config/obmenu-generator/icons/7dbe2cef63192376aa2717de7c822e3d.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Printing" icon="/home/ms77grz/.config/obmenu-generator/icons/25f054a8ded0a292ba01ab995ef897cb.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Xfce4 Settings Manager" icon="/home/ms77grz/.config/obmenu-generator/icons/01a1eb8ab5c9f5c02add2f9f5aed6471.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+  <separator/>
+    <menu id="0.617763051327518" label="Compositor" execute="am-compositor" icon="/home/ms77grz/.config/obmenu-generator/icons/53ed6f0007d07b16148ccec506a328bb.png"/>
+  <menu id="0.696113175561337" icon="/home/ms77grz/.config/obmenu-generator/icons/d4238eb70216d1c2ee88e0225c667b9d.png" label="Openbox">
+    <item label="Edit menu.xml" icon="/home/ms77grz/.config/obmenu-generator/icons/0582f17f9a83b4e0aa0cb518a4b9baae.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Edit rc.xml" icon="/home/ms77grz/.config/obmenu-generator/icons/0582f17f9a83b4e0aa0cb518a4b9baae.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Edit autostart" icon="/home/ms77grz/.config/obmenu-generator/icons/0582f17f9a83b4e0aa0cb518a4b9baae.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+  <separator/>
+    <item label="GUI Menu Editor" icon="/home/ms77grz/.config/obmenu-generator/icons/7dbe2cef63192376aa2717de7c822e3d.png"><action name="Execute"><command><![CDATA[obmenu3]]></command></action></item>
+    <item label="GUI Config Tool" icon="/home/ms77grz/.config/obmenu-generator/icons/7dbe2cef63192376aa2717de7c822e3d.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="GUI Keybinds" icon="/home/ms77grz/.config/obmenu-generator/icons/7dbe2cef63192376aa2717de7c822e3d.png"><action name="Execute"><command><![CDATA[obkey]]></command></action></item>
+  <separator/>
+    <item label="Restart Openbox" icon="/home/ms77grz/.config/obmenu-generator/icons/d4238eb70216d1c2ee88e0225c667b9d.png"><action name="Execute"><command><![CDATA[openbox --restart]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/ms77grz/.config/obmenu-generator/icons/d4238eb70216d1c2ee88e0225c667b9d.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+    <menu id="0.136853932243408" label="Tint2" execute="am-tint2-pipemenu" icon="/home/ms77grz/.config/obmenu-generator/icons/5de4f9bca38db8223edd3755a7940389.png"/>
+    <item label="Tint2 GUI" icon="/home/ms77grz/.config/obmenu-generator/icons/5de4f9bca38db8223edd3755a7940389.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+  <separator/>
+    <menu id="0.181164467561864" label="Display Keybinds" execute="am-kb-pipemenu" icon="/home/ms77grz/.config/obmenu-generator/icons/99135d8bf6cff426f8c723d9c73ee59c.png"/>
+  <menu id="0.746858300379987" icon="/home/ms77grz/.config/obmenu-generator/icons/dcd639cb1d89ed0c431fd978aab5e8c2.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/ms77grz/.config/obmenu-generator/icons/7dbe2cef63192376aa2717de7c822e3d.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/ms77grz/.config/obmenu-generator/icons/7dbe2cef63192376aa2717de7c822e3d.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a pipe menu" icon="/home/ms77grz/.config/obmenu-generator/icons/dcd639cb1d89ed0c431fd978aab5e8c2.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a static menu" icon="/home/ms77grz/.config/obmenu-generator/icons/dcd639cb1d89ed0c431fd978aab5e8c2.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a pipe menu with icons" icon="/home/ms77grz/.config/obmenu-generator/icons/dcd639cb1d89ed0c431fd978aab5e8c2.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/ms77grz/.config/obmenu-generator/icons/dcd639cb1d89ed0c431fd978aab5e8c2.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Refresh Icon Set" icon="/home/ms77grz/.config/obmenu-generator/icons/5aed92106a794756f4cd1b1f37ae1169.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock Screen" icon="/home/ms77grz/.config/obmenu-generator/icons/8705c3cd94f84356f3d995293a4f8169.png"><action name="Execute"><command><![CDATA[arcolinux-logout]]></command></action></item>
+    <item label="Exit Openbox" icon="/home/ms77grz/.config/obmenu-generator/icons/c961ddbfd3ca54d54f6bb800feb883cb.png"><action name="Execute"><command><![CDATA[arcolinux-logout]]></command></action></item>
+  </menu>
 </openbox_menu>
