@@ -585,3 +585,5 @@ Sep 16 21:22 : player: played "CHROMATICS 'LADY' (Official Video)-tbx8qRg6tPE.mp
 Sep 16 21:22 : client: [1] closed
 Sep 16 21:22 : client: [2] opened from 127.0.0.1:56454
 Sep 16 21:22 : client: [2] closed
+Sep 18 20:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 20:12 : avahi: Service 'Music Player @ nanobot' successfully established.
