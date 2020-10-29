@@ -587,3 +587,186 @@ Sep 16 21:22 : client: [2] opened from 127.0.0.1:56454
 Sep 16 21:22 : client: [2] closed
 Sep 18 20:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Sep 18 20:12 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 19 11:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 19 11:59 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 19 12:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 19 12:01 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 20 12:54 : client: [0] opened from 127.0.0.1:52174
+Sep 20 12:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 12:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 12:54 : client: [0] closed
+Sep 20 12:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 20 12:54 : client: [1] opened from 127.0.0.1:52178
+Sep 20 12:54 : client: [1] closed
+Sep 20 12:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 20 12:55 : client: [2] opened from 127.0.0.1:52250
+Sep 20 12:55 : client: [2] closed
+Sep 20 12:56 : client: [3] opened from 127.0.0.1:52254
+Sep 20 12:56 : player: played "Icehouse - Icehouse [mp3clan].mp3"
+Sep 20 12:56 : client: [3] closed
+Sep 20 12:56 : client: [4] opened from 127.0.0.1:52264
+Sep 20 12:56 : client: [4] closed
+Sep 20 12:56 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 20 12:56 : client: [5] opened from 127.0.0.1:52268
+Sep 20 12:56 : client: [5] closed
+Sep 20 12:59 : client: [6] opened from 127.0.0.1:52272
+Sep 20 12:59 : client: [6] closed
+Sep 20 12:59 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 20 13:00 : client: [7] opened from 127.0.0.1:52282
+Sep 20 13:00 : client: [7] closed
+Sep 20 13:28 : client: [8] opened from 127.0.0.1:52448
+Sep 20 13:28 : client: [8] closed
+Sep 20 13:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 20 13:29 : client: [9] opened from 127.0.0.1:52452
+Sep 20 13:29 : client: [9] closed
+Sep 20 14:25 : client: [10] opened from 127.0.0.1:52684
+Sep 20 14:25 : client: [10] closed
+Sep 20 14:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 20 14:26 : client: [11] opened from 127.0.0.1:52688
+Sep 20 14:26 : client: [11] closed
+Sep 21 12:24 : client: [12] opened from 127.0.0.1:54118
+Sep 21 12:24 : client: [12] closed
+Sep 21 12:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:25 : client: [13] opened from 127.0.0.1:54124
+Sep 21 12:25 : client: [13] closed
+Sep 21 12:25 : client: [14] opened from 127.0.0.1:54128
+Sep 21 12:25 : client: [14] closed
+Sep 21 12:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:25 : client: [15] opened from 127.0.0.1:54132
+Sep 21 12:25 : client: [15] closed
+Sep 21 12:25 : client: [16] opened from 127.0.0.1:54136
+Sep 21 12:25 : client: [16] closed
+Sep 21 12:31 : client: [17] opened from 127.0.0.1:33016
+Sep 21 12:31 : client: [18] opened from 127.0.0.1:33020
+Sep 21 12:31 : client: [18] closed
+Sep 21 12:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:32 : client: [19] opened from 127.0.0.1:33024
+Sep 21 12:32 : client: [19] closed
+Sep 21 12:32 : client: [20] opened from 127.0.0.1:33028
+Sep 21 12:32 : client: [20] closed
+Sep 21 12:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:32 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:33 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:34 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 21 12:34 : client: [17] closed
+Sep 21 12:34 : client: [21] opened from 127.0.0.1:33032
+Sep 21 12:34 : client: [21] closed
+Sep 22 21:59 : player: played "Igorrr 'Opus Brain' (OFFICIAL VIDEO)-Z5Qk89_xMcs.mp3"
+Sep 22 21:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 22 21:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 22 21:59 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 23 23:56 : player: played "Igorrr 'Opus Brain' (OFFICIAL VIDEO)-Z5Qk89_xMcs.mp3"
+Sep 24 20:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 24 20:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 24 20:46 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 25 23:05 : player: played "Igorrr 'Opus Brain' (OFFICIAL VIDEO)-Z5Qk89_xMcs.mp3"
+Sep 26 10:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 26 10:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 26 10:42 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 26 17:48 : player: played "Igorrr 'Opus Brain' (OFFICIAL VIDEO)-Z5Qk89_xMcs.mp3"
+Sep 26 17:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 26 17:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 26 17:49 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 27 23:54 : player: played "Igorrr 'Opus Brain' (OFFICIAL VIDEO)-Z5Qk89_xMcs.mp3"
+Sep 28 10:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 10:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 10:43 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 28 19:17 : player: played "Igorrr 'Opus Brain' (OFFICIAL VIDEO)-Z5Qk89_xMcs.mp3"
+Sep 28 19:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 19:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 19:18 : avahi: Service 'Music Player @ nanobot' successfully established.
+Sep 30 18:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 30 18:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 30 18:54 : player: played "Igorrr 'Opus Brain' (OFFICIAL VIDEO)-Z5Qk89_xMcs.mp3"
+Sep 30 18:54 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Sep 30 18:54 : player: played "Igorrr 'Opus Brain' (OFFICIAL VIDEO)-Z5Qk89_xMcs.mp3"
+Sep 30 18:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 30 18:56 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 02 19:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 19:53 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 03 23:07 : update: added /haircuts for men - 戦争忘れ-tnmXiS0EDgg.mp3
+Oct 03 23:07 : update: added /the abyss inside us-tenebrae.mp3
+Oct 03 23:07 : update: added /Men I Trust - Sad Organ-ZoheHcKV7hM.mp3
+Oct 03 23:07 : update: added /Don't Run Away-7tHTPUhyKPg.mp3
+Oct 03 23:07 : update: added /Bryan Adams - Do I Have To Say The Words-C6LwlSyq8lo.mp3
+Oct 03 23:07 : update: added /Men I Trust - Lauren-TNsSBhl_2LI.mp3
+Oct 03 23:07 : update: added /Agnes Obel - The Curse (Berlin Live Session)-j1wgaFJ0750.mp3
+Oct 03 23:07 : update: added /Hubert Kah - Midnight Sun.mp3
+Oct 03 23:07 : update: added /NINA - AUTOMATIC CALL.mp3
+Oct 03 23:07 : update: added /Anomaly (2016 Reissue)-q1tn6n4WPwg.mp3
+Oct 03 23:07 : update: added /Dr. Alban - Proud ! (to be Afrikan)-t0gwXP58jTI.mp3
+Oct 03 23:07 : update: added /Grimes – 4ÆM-mrZC1Jcv0dw.mp3
+Oct 03 23:07 : update: added /This Mortal Coil - Song To The Siren (Official Video)-HFWKJ2FUiAQ.mp3
+Oct 03 23:07 : update: added /Season Song-1cbh8X5X2vk.mp3
+Oct 03 23:07 : update: added /ConfideInMe.mp3
+Oct 03 23:07 : update: added New082020/Middle of the Road (2007 Remaster)--KosB3XJO_s.mp3
+Oct 03 23:07 : update: added New082020/Opium (Forest Mix).mp3
+Oct 03 23:07 : update: added New082020/Rush Animate.mp3
+Oct 03 23:07 : update: added New082020/DANCE WITH THE DEAD - Sunset.mp3
+Oct 03 23:07 : update: added New082020/Stevie Ray Vaughan - Little Wing.mp3
+Oct 03 23:07 : update: added New082020/Kingdom Come - Hands Of Time (1991).mp3
+Oct 03 23:07 : update: added New082020/DANCE WITH THE DEAD - Out of body.mp3
+Oct 03 23:07 : update: added New082020/Like a Mirror.mp3
+Oct 03 23:07 : update: added New082020/Truth Hurts.mp3
+Oct 03 23:07 : update: added New082020/DEADLIFE - Downpour.mp3
+Oct 03 23:07 : update: added New082020/DIO - My Eyes.mp3
+Oct 03 23:07 : update: added New082020/BLACK SABBATH TYR feels good to me 1990.mp3
+Oct 03 23:07 : update: added New082020/The Messiah Will Come Again.mp3
+Oct 03 23:07 : update: added New082020/Q 5 - Steel The Light.mp3
+Oct 03 23:07 : update: added New082020/Sundial Aeon - Lunatic Visions (Chronos Remix).mp3
+Oct 03 23:07 : update: added /Tame Impala - Borderline (Audio)-vpbblMR_jUo.mp3
+Oct 03 23:07 : update: added /Here She Comes Again-NR3_Eq3r_Xg.mp3
+Oct 03 23:07 : update: added /Learning To Crawl-YTzBqH0duXI.mp3
+Oct 03 23:07 : update: added /K.-_67Q6X2KQXk.mp3
+Oct 03 23:07 : update: added /Icehouse - Icehouse.mp3
+Oct 03 23:07 : update: added /molina-hey-kids.mp3
+Oct 03 23:07 : update: added /Crumb - Locket [Official Video]-BqnG_Ei35JE.mp3
+Oct 03 23:07 : update: added /Don't Call My Name-T3f8UJlwf2o.mp3
+Oct 03 23:07 : update: added /the abyss inside us - summer in her heart.mp3
+Oct 03 23:07 : update: added /nothuman.mp3
+Oct 03 23:07 : update: added Books/Audiobook - New Learn English through story   Robinson Crusoe     Graded reader1.mp3
+Oct 03 23:07 : update: added Books/Learn English Through Story - The Stranger by Norman Whitney.mp3
+Oct 03 23:07 : update: added /Icehouse - Icehouse [mp3clan].mp3
+Oct 03 23:07 : update: added /China Crisis - Dockland--EVkaM5A4BA.mp3
+Oct 03 23:07 : update: added /CHROMATICS 'LADY' (Official Video)-tbx8qRg6tPE.mp3
+Oct 03 23:07 : update: added /Hubert Kah - Carrousel.mp3
+Oct 03 23:07 : update: added /Molina - Hey Girl-w7xfCx3834k.mp3
+Oct 03 23:07 : update: added /Chip Notic - if i can't have you (Extended mix)-20ieCi4Zb-Q.mp3
+Oct 03 23:07 : update: added /Burns Like A Star-_9mrAXJhSz8.mp3
+Oct 03 23:07 : update: added /Sleep Party People - I'm Not Human At All-aFUzvbkEvRk.mp3
+Oct 03 23:07 : update: added /shadowshow-GThpdkTdCOI.mp3
+Oct 03 23:07 : update: added /Khruangbin - Ma Be Ham Nemiresim (Googoosh cover)-bq6bxDQMDro.mp3
+Oct 03 23:07 : update: added /You Want It Darker - Leonard Cohen-g1ED00ye5oU.mp3
+Oct 03 23:07 : update: added /Molina - Salvation-ZsrJUmsg6os.mp3
+Oct 03 23:07 : update: added /Igorrr 'Opus Brain' (OFFICIAL VIDEO)-Z5Qk89_xMcs.mp3
+Oct 03 23:07 : update: added /Bonobo - The Keeper ft. Andreya Triana (Banks Remix)-1hCKcPBVNHU.mp3
+Oct 03 23:07 : update: added /Grimes - So Heavy I Fell Through the Earth (Visualizer)-iH0kfH04U68.mp3
+Oct 03 23:07 : update: added /Still Corners - The Trip-Bhk7cjjLVXI.mp3
+Oct 03 23:07 : update: added /Tennis - Runner (Official Video)-Z6kNQEzQJpA.mp3
+Oct 03 23:07 : update: added /You'll Never Know.mp3
+Oct 03 23:07 : update: added /Cocteau Twins - Serpentskirt-lcfJT7sl4kQ.mp3
+Oct 03 23:07 : update: added /Nightcrawler – Genesis.mp3
+Oct 03 23:07 : update: added /China Crisis - Forever I And I-218nDp3LfTs.mp3
+Oct 03 23:07 : update: added /Igorrr - Au Revoir-AXZA-j6QqL4.mp3
+Oct 03 23:07 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 03 23:10 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 07 18:36 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 07 18:40 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 13 19:35 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 16 22:55 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 22 22:33 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 22 22:43 : player: played "Igorrr 'Opus Brain' (OFFICIAL VIDEO)-Z5Qk89_xMcs.mp3"
+Oct 23 09:52 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 24 21:41 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 25 11:16 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 25 15:01 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 26 22:20 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 28 20:54 : avahi: Service 'Music Player @ nanobot' successfully established.
+Oct 29 19:24 : avahi: Service 'Music Player @ nanobot' successfully established.
