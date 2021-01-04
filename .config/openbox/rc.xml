@@ -372,12 +372,23 @@
         <height>50%</height>
       </action>
     </keybind>
+    <!-- WINDOW SIZE 25% RIGHT -->
     <keybind key="W-KP_Enter">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>-0</x>
         <y>0</y>
         <width>25%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <!-- WINDOW SIZE 75% LEFT -->
+    <keybind key="W-S-KP_Enter">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>75%</width>
         <height>100%</height>
       </action>
     </keybind>
